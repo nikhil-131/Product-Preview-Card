@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    background-color: #F3EAE3;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box {
+    display: flex;
+    margin: 100px auto;
+    /* border: 2px solid black; */
+    width: 580px;
+}
+
+img {
+    display: block;
+    width: 260px;
+    height: 455px;
+    border-radius: 10px 0 0 10px;
+}
+
+.content {
+    display: block;
+    background-color: #FFFFFF;
+    width: 320px;
+    border-radius: 0 10px 10px 0;
+}
+
+.perfume {
+    display: block;
+    color: rgb(97, 96, 96);
+    letter-spacing: 5px;
+    text-transform:uppercase;
+    font-size: 13px;
+    padding-top: 15px;
+    width: 230px;
+    margin: 10px auto;
+    font-weight: 500;
+}
+
+button {
+    display: block;
+    color: #FFFFFF;
+    background-color: #3D8168;
+    padding: 10px 60px;
+    width: 230px;
+    border: none;
+    border-radius: 8px;
+    margin: 0px auto 30px auto;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.heading {
+    width: 230px;
+    margin: 20px auto;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: -1px;
+}
+
+p:nth-child(3) {
+    width: 230px;
+    margin: auto;
+}
+
+.price span:first-child {
+    font-size: 35px;
+    margin-right: 20px;
+    font-weight: 600;
+    color: #3D8168;
+}
+
+.price {
+    margin: 1em 50px;
+}
+
+span:last-child {
+    text-decoration: line-through;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #1A4031;
+}
